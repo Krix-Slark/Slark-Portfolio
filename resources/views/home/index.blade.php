@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Home')
+@section('title', 'Krix-Slark | Portfolio')
 
 @section('navbar')
     @include('layouts.navbar')
@@ -81,9 +81,9 @@
         </p>
         <div class="button-group d-flex justify-content-center mt-4 ">
           <div class="d-flex justify-content-center mt-4" id="skills-buttons">
-            <a href="" class="btn custom-btn me-4 px-4"><i class="fas fa-rocket rocket-icon me-3"></i>View
+            <a href="" class="btn custom-btn me-4 px-4 text-white"><i class="fas fa-rocket rocket-icon me-3 text-white"></i>View
               My Work</a>
-            <a href="" class="btn custom-btn px-4"><i class="fas fa-download me-3"></i>Download CV</a>
+            <a href="" class="btn custom-btn px-4 text-white"><i class="fas fa-download me-3 text-white"></i>Download CV</a>
           </div>
           
         </div>
@@ -92,15 +92,20 @@
         
         <div class="col-12 button-group mt-5 ms-3">
           <button class="btn custom-btn btn-outline-light me-0 mb-3"><i class="fa-brands fa-html5 me-2"
-              style="color: #ff0000;"></i> HTML</button>
+              style="color: #ff0000;"></i><span class="text-white">HTML</span></button>
           <button class="btn custom-btn btn-outline-light me-5 px-4 mx-5  mb-3"><i class="fa-brands fa-css3 me-2"
-              style="color: #0080ff;"></i>CSS</button>
-          <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-js me-2"
-              style="color: #f0db4f;"></i>JavaScript</button>
+                    style="color: #0080ff;"></i><span class="text-white">CSS</span></button>
+                    <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-github me-2"
+              style="color:white;"></i><span class="text-white">Github</span></button>
+               <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-git-alt me-2 "
+              style="color:white;"></i><span class="text-white">Git</span></button>
+          <button class="btn custom-btn btn-outline-light me-5 ms-5 mb-3"><i class="fa-brands fa-js me-2"
+              style="color: #f0db4f;"></i><span class="text-white">JavaScript</span></button>
+               
           <button class="btn custom-btn btn-outline-light me-5 px-3 mb-3"><img class="me-2" width="24" height="24"
-              src="images/icons8-tailwind-css-24.svg" alt="tailwind_css" />Tailwind Css</button>
+              src="images/icons8-tailwind-css-24.svg" alt="tailwind_css" /><span class="text-white">Tailwind Css</span></button>
           <button class="btn custom-btn btn-outline-light me-5 px-4 mb-3"><i class="fa-brands fa-bootstrap me-2"
-              style="color: #563d7c;"></i>Bootstrap</button>
+              style="color: #563d7c;"></i><span class="text-white">Bootstrap</span></button>
 
         </div>
       </div>
@@ -193,9 +198,9 @@
                 </button>
               </div>
               <h2 class="mt-4">GYM Web Page</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Landing Page</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
               <p class="text-white-50 mt-3 fs-5">A responsive gym website showcasing class schedules, trainer profiles,
-                and membership plans. And more features to come!</p>
+                and membership plans.</p>
             </div>
           </div>
         </div>
@@ -246,7 +251,7 @@
                 </button>
               </div>
               <h2 class="mt-4">Fitness Portfolio</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Landing Page</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
               <p class="text-white-50 mt-3 fs-5">A personal fitness portfolio website showcasing workout routines,
                 nutrition tips, and client success stories.
               </p>
@@ -297,7 +302,7 @@
                 </button>
               </div>
               <h2 class="mt-4">God Muscle Gym</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Landing Page</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
               <p class="text-white-50 mt-3 fs-5">A modern fitness trainer portfolio website with personal bio,
                 workout programs, and client testimonials. </p>
             </div>
@@ -345,9 +350,9 @@
                 </button>
               </div>
               <h2 class="mt-4">Movie Channel</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Landing Page</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
               <p class="text-white-50 mt-3 fs-5">A modern movie channel website featuring the latest trailers,
-                reviews, and news. Optimized for mobile and desktop views.</p>
+                reviews, etc... Optimized for mobile and desktop views.</p>
             </div>
           </div>
         </div>
@@ -390,7 +395,7 @@
                 </button>
               </div>
               <h2 class="mt-4">SLARKERY BAKE SHOP</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Landing Page</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
               <p class="text-white-50 mt-3 fs-5">A modern bake shop website featuring a menu, online ordering,
                 and customer reviews. Optimized for mobile and desktop views.</p>
             </div>
@@ -431,7 +436,7 @@
                 </button>
               </div>
               <h2 class="mt-4">Recipe Finder</h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Side Project</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
               <p class="text-white-50 mt-3 fs-5">A modern recipe finder website with a searchable database,
                 user ratings, and cooking tips. Optimized for mobile and desktop views.</p>
             </div>
@@ -472,7 +477,7 @@
                 </button>
               </div>
               <h2 class="mt-4">Fourlicious Login </h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Side Project</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
               <p class="text-white-50 mt-3 fs-5">A user-friendly login and registration system for the Fourlicious
                 website,
                 built with a focus on security and ease of use.</p>
@@ -513,7 +518,7 @@
                 </button>
               </div>
               <h2 class="mt-4">Payment Method </h2>
-              <button class="btn btn-outline-light custom-btn mt-3 px-3">Side Project</button>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
               <p class="text-white-50 mt-3 fs-5">A secure payment method section for the Fourlicious website, allowing
                 users to easily manage their payment options. </p>
             </div>

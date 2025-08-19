@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 body {
   background-color: #0a0a0a; /* Deep black */
   height: 100vh;
@@ -9,79 +8,9 @@ body {
   padding: 0;
   position: relative;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Blob Base Style */
-.blob {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  filter: blur(25px);
-  opacity: 0.5;
-  z-index: -1;
-  animation: float 5s ease-in-out infinite alternate;
-}
-
-/* Purple Glow */
-.blob.purple {
-  background: radial-gradient(circle, #8000ff, transparent);
-}
-
-/* Sky Blue Glow */
-.blob.blue {
-  background: radial-gradient(circle, #00ffff, transparent);
-}
-
-/* Pink Glow */
-.blob.pink {
-  background: radial-gradient(circle, #8000ff, transparent);
-}
-
-/* Green Glow */
-.blob.green {
-  background: radial-gradient(circle, #00ffff, transparent);
-}
-
-/* Specific Positioning */
-.blob.top-left {
-  top: 60px;
-  left: 80px;
-  animation-delay: 1s;
-}
-
-.blob.top-right {
-  top: 100px;
-  right: 120px;
-  animation-delay: 1s;
-}
-
-.blob.bottom-left {
-  bottom: 130px;
-  left:400px;
-  animation-delay: 2s;
-}
-
-.blob.bottom-right {
-  bottom: 70px;
-  right: 140px;
-  animation-delay: 3s;
-}
-
-/* Floating Animation (Subtle) */
-@keyframes float {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(20px, -20px); }
-}
-
-.blob-container {
-  position: absolute;
-  max-height: 100vh;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 /* Blob Base Style */
 .blob {
   position: absolute;
@@ -94,86 +23,50 @@ body {
   animation: float 2s ease-in-out infinite alternate;
 }
 
-/* Purple Glow */
-.blob.purple {
-  background: radial-gradient(circle, #8000ff, transparent);
-}
-
-/* Sky Blue Glow */
-.blob.blue {
-  background: radial-gradient(circle, #00ffff, transparent);
-}
-
-/* Pink Glow */
-.blob.pink {
-  background: radial-gradient(circle, #8000ff, transparent);
-}
-
-/* Green Glow */
-.blob.green {
-  background: radial-gradient(circle, #00ffff, transparent);
-}
+/* Blob Colors */
+.blob.purple { background: radial-gradient(circle, #8000ff, transparent); }
+.blob.blue { background: radial-gradient(circle, #00ffff, transparent); }
+.blob.pink { background: radial-gradient(circle, #ff00ff, transparent); }
+.blob.green { background: radial-gradient(circle, #00ff00, transparent); }
 
 /* Specific Positioning */
-.blob.top-left {
-  top: 60px;
-  left: 80px;
-  animation-delay: 1s;
-}
+.blob.top-left { top: 60px; left: 80px; animation-delay: 1s; }
+.blob.top-right { top: 100px; right: 120px; animation-delay: 1s; }
+.blob.bottom-left { bottom: 130px; left: 400px; animation-delay: 2s; }
+.blob.bottom-right { bottom: 70px; right: 140px; animation-delay: 3s; }
 
-.blob.top-right {
-  top: 100px;
-  right: 120px;
-  animation-delay: 1s;
-}
-
-.blob.bottom-left {
-  bottom: 130px;
-  left:400px;
-  animation-delay: 2s;
-}
-
-.blob.bottom-right {
-  bottom: 70px;
-  right: 140px;
-  animation-delay: 3s;
-}
-
-/* Floating Animation (Subtle) */
+/* Floating Animation */
 @keyframes float {
   0% { transform: translate(0, 0); }
   100% { transform: translate(25px, -25px); }
 }
 
-.navbar {
-  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+.blob-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
 }
 
-.navbar-custom {
-  background-color: transparent;
-  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-}
-
+/* Navbar */
+.navbar { transition: background-color 0.3s ease, backdrop-filter 0.3s ease; }
+.navbar-custom { background-color: transparent; }
 .navbar-blur {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }
 
-
-.nav-link:hover {
+.nav-link:hover, .nav-link.active {
   color: #8000ff !important;
-  background-color:rgba(255, 255, 255, 0.041);
+  background-color: rgba(255, 255, 255, 0.041);
   border-radius: 10px;
   transition: all 0.3s ease;
-
-}
-.nav-link.active {
-  color: #8000ff !important;
-  background-color:rgba(255, 255, 255, 0.041);
-  border-radius: 10px;
 }
 
+/* Cursor Blink */
 .cursor {
   display: inline-block;
   margin-left: 2px;
@@ -186,22 +79,12 @@ body {
   50% { opacity: 0; }
 }
 
-/* Initial state: transparent */
-body.fade-in-start {
-  opacity: 0;
-  transition: opacity 1.5s ease-in;
-}
+/* Fade-in Effect */
+body.fade-in-start { opacity: 0; transition: opacity 1.5s ease-in; }
+body.fade-in { opacity: 1; }
 
-/* After load: fully visible */
-body.fade-in {
-  opacity: 1;
-}
-
-.button-group .btn {
-  border: 1px solid #8000ff;
-  border-radius: 15px;
-  
-}
+/* Buttons */
+.button-group .btn { border: 1px solid #8000ff; border-radius: 15px; }
 
 .custom-btn {
   border: 2px solid #a020f0;
@@ -211,15 +94,12 @@ body.fade-in {
   color: white;
 }
 
-/* Add purple glow on hover */
 .custom-btn:hover {
   border-color: #a020f0;
   background-color: #a020f0;
-  color: white;
-  box-shadow: 0 0 12px 4px rgba(160, 32, 240, 0.5); /* blurred purple glow */
+  box-shadow: 0 0 12px 4px rgba(160, 32, 240, 0.5);
 }
 
-/* Rocket fly animation */
 .rocket-icon {
   display: inline-block;
   transition: transform 0.5s ease-in-out;
@@ -229,7 +109,6 @@ body.fade-in {
   animation: rocket-fly 0.6s ease-in-out infinite;
 }
 
-/* Keyframes for rocket movement */
 @keyframes rocket-fly {
   0% { transform: translateY(0) rotate(0deg); }
   25% { transform: translateY(-2px) rotate(-5deg); }
@@ -238,41 +117,33 @@ body.fade-in {
   100% { transform: translateY(0) rotate(0deg); }
 }
 
-  .btn-group .btn.active {
-    background-color: #0dcaf0;
-    color: #000;
-    border-color: #0dcaf0;
-  }
-
-  .card{
-    transition: transform 0.3s ease;
-  }
-
-  .card:hover {
-    transform: scale(1.01);
-    box-shadow: 0 4px 20px #8000ff70;
-  }
-  
-  h2 {
-    font-family: 'Poppins';
-    color: rgb(177, 177, 177);
-    transition: color 0.3s ease;
-  }
-
-
-  .carousel-indicators [data-bs-target] {
-    background-color:#00b7ff;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-
- #featured-projects {
-  position: relative;
-  overflow: hidden;
-  
+.btn-group .btn.active {
+  background-color: #0dcaf0;
+  color: #000;
+  border-color: #0dcaf0;
 }
 
-/* Rename these from .blob to .background-blob */
+/* Cards */
+.card { transition: transform 0.3s ease; }
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px #8000ff70;
+}
+
+/* Headings */
+h2 { color: rgb(177, 177, 177); transition: color 0.3s ease; }
+
+/* Carousel Indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: #00b7ff;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Featured Projects */
+#featured-projects { position: relative; overflow: hidden; }
+
+/* Background Blobs */
 .background-blob {
   position: absolute;
   width: 300px;
@@ -284,32 +155,15 @@ body.fade-in {
   z-index: 0;
 }
 
+.background-blob-purple { top: -100px; left: -100px; background-color: hsl(270, 91%, 65%); animation-delay: 3s; }
+.background-blob-cyan { top: -100px; right: -100px; background-color: hsl(180, 100%, 50%); }
 
-/* Purple blob */
-.background-blob-purple {
-  top: -100px;
-  left: -100px;
-  background-color: hsl(270, 91%, 65%);
-  animation-delay: 2s;
-}
-
-/* Cyan blob */
-.background-blob-cyan {
-  top: -100px;
-  right: -100px;
-  background-color: hsl(180, 100%, 50%);
-}
-
-/* Blob animation */
 @keyframes blob-zoom {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.25);
-  }
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.25); }
 }
 
+/* Gradient Border */
 .gradient-border {
   width: 15%;
   height: 4px;
