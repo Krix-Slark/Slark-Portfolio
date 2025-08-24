@@ -3,11 +3,11 @@
 @section('title', 'Krix-Slark | Portfolio')
 
 @section('navbar')
-    @include('layouts.navbar')
+  @include('layouts.navbar')
 @endsection
 
 @section('content')
-    <!-- Small Glowing Background Blobs -->
+  <!-- Small Glowing Background Blobs -->
   <div class="blob-container">
     <div class="blob purple top-left"></div>
     <div class="blob pink top-right"></div>
@@ -19,42 +19,42 @@
     style="background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
 
     <div class="container d-flex justify-content-between align-items-center">
-      <!-- Brand Left -->
-      <a href="index.html" class="navbar-brand me-5">
-        <span style="background: linear-gradient(90deg, #8000ff, #00aaff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
-        font-weight: bold; font-size: 1.5rem;"><i class="fas fa-code me-2"></i>Krix-slark</span>
-      </a>
-      <!-- Toggler for mobile -->
-      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Nav and Icons (collapsible) -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav gap-4 fw-bold mx-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#project-showcase">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#skills-buttons">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="">Contact</a>
-          </li>
-        </ul>
-        <div class="button-group d-flex align-items-center gap-2">
-          <a href="#" class="btn btn-outline-light border-0"><i class="fa-brands fa-github"></i></a>
-          <a href="#" class="btn btn-outline-light border-0"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#" class="btn btn-outline-light border-0"><i class="fa-regular fa-envelope"></i></a>
-        </div>
+    <!-- Brand Left -->
+    <a href="index.html" class="navbar-brand me-5">
+      <span style="background: linear-gradient(90deg, #8000ff, #00aaff); -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
+      font-weight: bold; font-size: 1.5rem;"><i class="fas fa-code me-2"></i>Krix-slark</span>
+    </a>
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Nav and Icons (collapsible) -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-4 fw-bold mx-auto">
+      <li class="nav-item">
+        <a class="nav-link text-white active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#project-showcase">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#skills-buttons">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="">Contact</a>
+      </li>
+      </ul>
+      <div class="button-group d-flex align-items-center gap-2">
+      <a href="#" class="btn btn-outline-light border-0"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="btn btn-outline-light border-0"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" class="btn btn-outline-light border-0"><i class="fa-regular fa-envelope"></i></a>
       </div>
+    </div>
     </div>
   </nav>
   <!-- Navbar End -->
@@ -62,493 +62,586 @@
   <!-- Hero Section Start -->
   <div class="container mt-5 pt-5">
     <div class="row">
-      <div class="col-12 col-md-6 d-flex justify-content-center mt-5 ">
-         
-        <img src="images/Slark.jpg" alt="Krix-slark" class="img-fluid rounded-circle py-0 mt-4 d-block w-50 h-50 "
-          style=" object-fit: cover; aspect-ratio: 1/2; border:4px solid #00aaff; box-shadow: 0 0 30px rgba(0, 170, 255, 0.4);">
-      </div>
-      
-      <div class="col-12 col-md-6 text-center">
-        <h1 class="display-2 fw-bold mt-1" style="background: linear-gradient(180deg, #8000ff, #8000ff, #00aaff); -webkit-background-clip: text; 
+    <div class="col-12 col-md-6 d-flex justify-content-center mt-5 ">
+
+      <img src="images/Slark.jpg" alt="Krix-slark" class="img-fluid rounded-circle py-0 mt-4 d-block w-50 h-50 "
+      style=" object-fit: cover; aspect-ratio: 1/2; border:4px solid #00aaff; box-shadow: 0 0 30px rgba(0, 170, 255, 0.4);">
+    </div>
+
+    <div class="col-12 col-md-6 text-center">
+      <h1 class="display-2 fw-bold mt-1" style="background: linear-gradient9, #8000ff, #8000ff, #00aaff); -webkit-background-clip: text; 
       -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
       font-weight: bold; font-size: 5rem;">SLARK</h1>
-        <h2 class="text-white fw-bold mt-3">
-          <span id="changing-text" class="">Frontend Developer</span> <span class="cursor">|</span>
-        </h2>
-        <p class="text-white fs-5 text-center mt-4">
-          Transforming ideas into <strong style="color: skyblue;">stunning digital experiences</strong> with
-          cutting-edge technologies and creative solutions that make a difference.
-        </p>
-        <div class="button-group d-flex justify-content-center mt-4 ">
-          <div class="d-flex justify-content-center mt-4" id="skills-buttons">
-            <a href="" class="btn custom-btn me-4 px-4 text-white"><i class="fas fa-rocket rocket-icon me-3 text-white"></i>View
-              My Work</a>
-            <a href="" class="btn custom-btn px-4 text-white"><i class="fas fa-download me-3 text-white"></i>Download CV</a>
-          </div>
-          
-        </div>
-
-        
-        
-        <div class="col-12 button-group mt-5 ms-3">
-          <button class="btn custom-btn btn-outline-light me-0 mb-3"><i class="fa-brands fa-html5 me-2"
-              style="color: #ff0000;"></i><span class="text-white">HTML</span></button>
-          <button class="btn custom-btn btn-outline-light me-5 px-4 mx-5  mb-3"><i class="fa-brands fa-css3 me-2"
-                    style="color: #0080ff;"></i><span class="text-white">CSS</span></button>
-                    <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-github me-2"
-              style="color:white;"></i><span class="text-white">Github</span></button>
-               <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-git-alt me-2 "
-              style="color:white;"></i><span class="text-white">Git</span></button>
-          <button class="btn custom-btn btn-outline-light me-5 ms-5 mb-3"><i class="fa-brands fa-js me-2"
-              style="color: #f0db4f;"></i><span class="text-white">JavaScript</span></button>
-               
-          <button class="btn custom-btn btn-outline-light me-5 px-3 mb-3"><img class="me-2" width="24" height="24"
-              src="images/icons8-tailwind-css-24.svg" alt="tailwind_css" /><span class="text-white">Tailwind Css</span></button>
-          <button class="btn custom-btn btn-outline-light me-5 px-4 mb-3"><i class="fa-brands fa-bootstrap me-2"
-              style="color: #563d7c;"></i><span class="text-white">Bootstrap</span></button>
-
-        </div>
+      <h2 class="text-white fw-bold mt-3">
+      <span id="changing-text" class="">Frontend Developer</span> <span class="cursor">|</span>
+      </h2>
+      <p class="text-white fs-5 text-center mt-4">
+      Transforming ideas into <strong style="color: skyblue;">stunning digital experiences</strong> with
+      cutting-edge technologies and creative solutions that make a difference.
+      </p>
+      <div class="button-group d-flex justify-content-center mt-4 ">
+      <div class="d-flex justify-content-center mt-4" id="skills-buttons">
+        <a href="" class="btn custom-btn me-4 px-4 text-white"><i
+          class="fas fa-rocket rocket-icon me-3 text-white"></i>View
+        My Work</a>
+        <a href="" class="btn custom-btn px-4 text-white"><i class="fas fa-download me-3 text-white"></i>Download
+        CV</a>
       </div>
+
+      </div>
+
+
+
+      <div class="col-12 button-group mt-5 ms-3">
+      <button class="btn custom-btn btn-outline-light me-0 mb-3"><i class="fa-brands fa-html5 me-2"
+        style="color: #ff0000;"></i><span class="text-white">HTML</span></button>
+      <button class="btn custom-btn btn-outline-light me-5 px-4 mx-5  mb-3"><i class="fa-brands fa-css3 me-2"
+        style="color: #0080ff;"></i><span class="text-white">CSS</span></button>
+      <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-github me-2"
+        style="color:white;"></i><span class="text-white">Github</span></button>
+      <button class="btn custom-btn btn-outline-light me-4 mb-3"><i class="fa-brands fa-git-alt me-2 "
+        style="color:white;"></i><span class="text-white">Git</span></button>
+      <button class="btn custom-btn btn-outline-light me-5 ms-5 mb-3"><i class="fa-brands fa-js me-2"
+        style="color: #f0db4f;"></i><span class="text-white">JavaScript</span></button>
+
+      <button class="btn custom-btn btn-outline-light me-5 px-3 mb-3"><img class="me-2" width="24" height="24"
+        src="{{asset('images/icons8-tailwind-css-24.svg')}}" alt="tailwind_css" /><span class="text-white">Tailwind
+        Css</span></button>
+      <button class="btn custom-btn btn-outline-light me-5 px-4 mb-3"><i class="fa-brands fa-bootstrap me-2"
+        style="color: #563d7c;"></i><span class="text-white">Bootstrap</span></button>
+
+      </div>
+    </div>
     </div>
   </div>
 
   <section id="featured-projects" style="position: relative; z-index: 0;">
     <canvas id="particle-bg"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
 
     <!-- Your project cards or content goes here -->
-  
 
 
-  <!-- Project Showcase -->
 
-  <div class="container d-flex justify-content-center align-item-center mt-3" id="project-showcase">
+    <!-- Project Showcase -->
+
+    <div class="container d-flex justify-content-center align-item-center mt-3" id="project-showcase">
     <div class="col-12 text-center">
       <h1 class="fw-bold" style="background: linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; 
       -webkit-text-fill-color: transparent; background-clip: text; color: transparent;font-size: 3.5rem; ">Featured
-        Projects</h1>
+      Projects</h1>
       <p class="col-12 col-md-7 mx-auto text-white-50 mt-4">A showcase of my recent work and contributions to various
-        web development projects.
-        Each project represents a unique challenge solved with creativity and technical expertise.</p>
+      web development projects.
+      Each project represents a unique challenge solved with creativity and technical expertise.</p>
     </div>
 
-  </div>
+    </div>
 
-  <div class="background-blob background-blob-cyan"></div>
+    <div class="background-blob background-blob-cyan"></div>
 
-  <div class="row d-flex justify-content-center justify-content-md-start align-item-center align-item-md-start mt-5">
+    <div class="row d-flex justify-content-center justify-content-md-start align-item-center align-item-md-start mt-5">
     <div class="btn-group px-5" id="filter-buttons">
       <button class="btn btn-outline-light custom-btn active" data-filter="all">
-        <i class="fas fa-filter me-2"></i> All Projects <span class="badge bg-light text-dark ms-2"
-          id="count-all"></span>
+      <i class="fas fa-filter me-2"></i> All Projects <span class="badge bg-light text-dark ms-2"
+        id="count-all"></span>
       </button>
       <button class="btn btn-outline-light custom-btn" data-filter="fullstack">
-        <i class="fas fa-filter me-2"></i> Full Stack <span class="badge bg-light text-dark ms-2"
-          id="count-fullstack"></span>
+      <i class="fas fa-filter me-2"></i> Full Stack <span class="badge bg-light text-dark ms-2"
+        id="count-fullstack"></span>
       </button>
       <button class="btn btn-outline-light custom-btn" data-filter="landing">
-        <i class="fas fa-filter me-2"></i> Landing Pages <span class="badge bg-light text-dark ms-2"
-          id="count-landing"></span>
+      <i class="fas fa-filter me-2"></i> Landing Pages <span class="badge bg-light text-dark ms-2"
+        id="count-landing"></span>
       </button>
       <button class="btn btn-outline-light custom-btn" data-filter="side">
-        <i class="fas fa-filter me-2"></i> Side Projects <span class="badge bg-light text-dark ms-2"
-          id="count-side"></span>
+      <i class="fas fa-filter me-2"></i> Side Projects <span class="badge bg-light text-dark ms-2"
+        id="count-side"></span>
       </button>
     </div>
-</div>
+    </div>
 
-     <div class="background-blob background-blob-purple"></div>
+    <div class="background-blob background-blob-purple"></div>
     <!-- Project Card Section -->
     <div class="container mt-5">
-      <div class="row justify-content-center align-items-start">
+    <div class="row justify-content-center align-items-start">
 
-        <!-- Card 1 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/SlarkGYM2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/SlarkGym2.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/SlarkGym2.2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/SlarkGym2.3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">GYM Web Page</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A responsive gym website showcasing class schedules, trainer profiles,
-                and membership plans.</p>
-            </div>
+      <!-- Card 1 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="5" aria-label="Slide 6"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/slarkgym.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/portfolio1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/portfolio1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/portfolio1.3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/portfolio1.4.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/portfolio1.5.png" class="d-block w-100" alt="...">
-                  </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">Fitness Portfolio</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A personal fitness portfolio website showcasing workout routines,
-                nutrition tips, and client success stories.
-              </p>
-            </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/SlarkGYM2.png" class="d-block w-100" alt="...">
           </div>
-        </div>
-
-
-        <!-- Card 3 -->
-
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/godmuscle.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.4.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">God Muscle Gym</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A modern fitness trainer portfolio website with personal bio,
-                workout programs, and client testimonials. </p>
-            </div>
+          <div class="carousel-item">
+            <img src="images/SlarkGym2.1.png" class="d-block w-100" alt="...">
           </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/movie.png" class="d-block w-100" alt="...">
-                  </div>
-                  <!-- <div class="carousel-item">
-                    <img src="images/God1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/God1.4.png" class="d-block w-100" alt="...">
-                  </div> -->
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">Movie Channel</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A modern movie channel website featuring the latest trailers,
-                reviews, etc... Optimized for mobile and desktop views.</p>
-            </div>
+          <div class="carousel-item">
+            <img src="images/SlarkGym2.2.png" class="d-block w-100" alt="...">
           </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="3" aria-label="Slide 4"></button>
-
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/Slarkery.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Slarkery1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Slarkery1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Slarkery1.3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">SLARKERY BAKE SHOP</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A modern bake shop website featuring a menu, online ordering,
-                and customer reviews. Optimized for mobile and desktop views.</p>
-            </div>
+          <div class="carousel-item">
+            <img src="images/SlarkGym2.3.png" class="d-block w-100" alt="...">
           </div>
-        </div>
-
-
-        <!-- Card 6 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/recipe_finder.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/recipe1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/recipe1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">Recipe Finder</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
-              <p class="text-white-50 mt-3 fs-5">A modern recipe finder website with a searchable database,
-                user ratings, and cooking tips. Optimized for mobile and desktop views.</p>
-            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
+        <h2 class="mt-4">GYM Web Page</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
+        <p class="text-white-50 mt-3 fs-5">A responsive gym website showcasing class schedules, trainer profiles,
+          and membership plans.</p>
+        </div>
+      </div>
+      </div>
 
+      <!-- Card 2 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="5" aria-label="Slide 6"></button>
 
-        <!-- Card 7 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/Fourlicious.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Fourlious1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Fourlious1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">Fourlicious Login </h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
-              <p class="text-white-50 mt-3 fs-5">A user-friendly login and registration system for the Fourlicious
-                website,
-                built with a focus on security and ease of use.</p>
-            </div>
           </div>
-        </div>
-
-        <!-- Card 8 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
-          <div class="card border border-dark h-100">
-            <div class="card-body bg-black text-white">
-              <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                </div>
-                <!-- Slides -->
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="images/payment1.1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Payment.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/Payment1.2.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <h2 class="mt-4">Payment Method </h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
-              <p class="text-white-50 mt-3 fs-5">A secure payment method section for the Fourlicious website, allowing
-                users to easily manage their payment options. </p>
-            </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/slarkgym.png" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item">
+            <img src="images/portfolio1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/portfolio1.2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/portfolio1.3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/portfolio1.4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/portfolio1.5.png" class="d-block w-100" alt="...">
+          </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
+        <h2 class="mt-4">Fitness Portfolio</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
+        <p class="text-white-50 mt-3 fs-5">A personal fitness portfolio website showcasing workout routines,
+          nutrition tips, and client success stories.
+        </p>
+        </div>
+      </div>
+      </div>
 
-        <!-- Card 9 -->
+
+      <!-- Card 3 -->
+
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/godmuscle.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/God1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/God1.2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/God1.3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/God1.4.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">God Muscle Gym</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
+        <p class="text-white-50 mt-3 fs-5">A modern fitness trainer portfolio website with personal bio,
+          workout programs, and client testimonials. </p>
+        </div>
+      </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/movie.png" class="d-block w-100" alt="...">
+          </div>
+          <!-- <div class="carousel-item">
+        <img src="images/God1.1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="images/God1.2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="images/God1.3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="images/God1.4.png" class="d-block w-100" alt="...">
+        </div> -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">Movie Channel</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
+        <p class="text-white-50 mt-3 fs-5">A modern movie channel website featuring the latest trailers,
+          reviews, etc... Optimized for mobile and desktop views.</p>
+        </div>
+      </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="3" aria-label="Slide 4"></button>
 
 
-        <!-- Card 10 -->
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/Slarkery.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slarkery1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slarkery1.2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slarkery1.3.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">SLARKERY BAKE SHOP</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
+        <p class="text-white-50 mt-3 fs-5">A modern bake shop website featuring a menu, online ordering,
+          and customer reviews. Optimized for mobile and desktop views.</p>
+        </div>
+      </div>
+      </div>
 
 
+      <!-- Card 6 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/recipe_finder.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe1.2.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">Recipe Finder</h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
+        <p class="text-white-50 mt-3 fs-5">A modern recipe finder website with a searchable database,
+          user ratings, and cooking tips. Optimized for mobile and desktop views.</p>
+        </div>
+      </div>
+      </div>
+
+
+      <!-- Card 7 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/Fourlicious.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Fourlious1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Fourlious1.2.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">Fourlicious Login </h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
+        <p class="text-white-50 mt-3 fs-5">A user-friendly login and registration system for the Fourlicious
+          website,
+          built with a focus on security and ease of use.</p>
+        </div>
+      </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-12 col-md-5 mb-4 project-card" data-category="side">
+      <div class="card border border-dark h-100">
+        <div class="card-body bg-black text-white">
+        <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          </div>
+          <!-- Slides -->
+          <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="images/payment1.1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Payment.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Payment1.2.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <h2 class="mt-4">Payment Method </h2>
+        <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Side Project</span>
+        <p class="text-white-50 mt-3 fs-5">A secure payment method section for the Fourlicious website, allowing
+          users to easily manage their payment options. </p>
+        </div>
+      </div>
+      </div>
+
+      <!-- Card 9 -->
+
+
+      <!-- Card 10 -->
+
+
+    </div>
+    </div>
+  </section>
+
+  <div class="about-container d-flex flex-column justify-content-center align-items-center mt-5">
+    <h1 class="title fw-bold" style="color: #0080ff; font-size: 3.5rem;">About Me</h1>
+    <div class="gradient-border mt-2"></div>
+    <p class="text-center text-white-50 mt-4">Passionate Frontend Developer crafting exceptional digital experiences with
+    modern <br>technologies</p>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="row justify-content-start align-items-start">
+    <div class="col-12 col-md-6">
+      <div class="card bg-black border-light">
+      <div class="card-body text-start text-white">
+        <h2 class="card-title text-white mt-3 mb-4" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">My Journey</h2>
+        <p class="text-white-50" style="text-align: justify;">I’m a passionate newbie Frontend Developer currently
+        mastering HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript. Based in Yangon, Myanmar, I’m on an exciting
+        journey to become a versatile full-stack developer with expertise in UI/UX design and mobile development.
+        <br><br>
+
+        Currently learning Laravel to expand my backend skills, I believe in continuous learning and staying updated
+        with the latest web technologies. My goal is to create beautiful, functional, and user-friendly digital
+        experiences that make a difference.
+        </p>
+      </div>
+      </div>
+    </div>   
+
+    <div class="col-12 col-md-6">
+      <div class="card bg-black border-light mb-4">
+      <div class="card-body text-start text-white">
+        <h2 class="card-title text-white mt-3 mb-4 fs-3" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Current Skills</h2>
+        <!-- HTML & CSS -->
+      <p><i class="fab fa-html5 text-danger me-3"></i><i class="fab text-info fa-css3 me-3"></i> HTML & CSS <span class="float-end">85%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 85%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff);  border-radius: 10px;"></div>
+      </div>
+
+      <!-- Bootstrap -->
+      <p><i class="fab fa-bootstrap me-3" style="color: #7952b3;"></i> Bootstrap <span class="float-end">80%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 80%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+
+      <!-- JavaScript -->
+      <p><i class="fab fa-js-square text-warning me-3"></i> JavaScript <span class="float-end">75%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 75%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+
+      <!-- Tailwind CSS -->
+      <p><img src="{{ asset('images/icons8-tailwind-css-24.svg') }}" alt="Tailwind Css" class="me-2"> Tailwind CSS <span class="float-end">65%</span></p>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 65%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+      </div>
+      </div>
+
+      <div class="card bg-black border-light mb-4">
+      <div class="card-body text-start text-white">
+        <h2 class="card-title text-white mt-3 mb-4 fs-3" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Currently Learning</h2>
+        <!-- Laravel -->
+      <p><i class="fab fa-laravel text-danger me-3"></i> Laravel <span class="float-end">40%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 40%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff);  border-radius: 10px;"></div>
+      </div>
+
+      <!-- PHP -->
+      <p><i class="fab fa-php text-primary me-3"></i> PHP <span class="float-end">30%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 30%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+
+      <!-- React -->
+      <p><i class="fab fa-react text-info me-3"></i> React <span class="float-end">40%</span></p>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 40%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+
+      <!-- UI/UX Design-->
+      <p><i class="fab fa-figma  me-3" style="color:purple;"></i> UI/UX Design <span class="float-end">25%</span></p>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar" role="progressbar" style="width: 25%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
+      </div>
+      </div>
+      </div>
+
+    </div>
+      </div>
       </div>
     </div>
-</section>
+    </div>
+  </div>
 
-<div class="about-container d-flex flex-column justify-content-center align-items-center mt-5">
-  <h1 class="title fw-bold" style="color: #0080ff; font-size: 3.5rem;">About Me</h1>
-  <div class="gradient-border mt-2"></div>
-  <p class="text-center text-white-50 mt-4">Passionate Frontend Developer crafting exceptional digital experiences with modern <br>technologies</p>
-</div>
 @endsection
 
 @section('script')
-<script>
-const phrases = [
-      "Frontend Developer",
-      "Creative Coder",
-      "Problem Solver",
-      "UI/UX Enthusiast"
+  <script>
+    const phrases = [
+    "Frontend Developer",
+    "Creative Coder",
+    "Problem Solver",
+    "UI/UX Enthusiast"
     ];
 
     const typeElement = document.getElementById("changing-text");
@@ -557,161 +650,161 @@ const phrases = [
     let isDeleting = false;
 
     function type() {
-      const currentPhrase = phrases[currentPhraseIndex];
+    const currentPhrase = phrases[currentPhraseIndex];
 
-      if (isDeleting) {
-        currentCharIndex--;
-      } else {
-        currentCharIndex++;
-      }
+    if (isDeleting) {
+      currentCharIndex--;
+    } else {
+      currentCharIndex++;
+    }
 
-      typeElement.textContent = currentPhrase.substring(0, currentCharIndex);
+    typeElement.textContent = currentPhrase.substring(0, currentCharIndex);
 
-      if (!isDeleting && currentCharIndex === currentPhrase.length) {
-        // Pause before deleting
-        setTimeout(() => isDeleting = true, 3000);
-      } else if (isDeleting && currentCharIndex === 0) {
-        // Move to next phrase
-        isDeleting = false;
-        currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
-      }
+    if (!isDeleting && currentCharIndex === currentPhrase.length) {
+      // Pause before deleting
+      setTimeout(() => isDeleting = true, 3000);
+    } else if (isDeleting && currentCharIndex === 0) {
+      // Move to next phrase
+      isDeleting = false;
+      currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+    }
 
-      const typingSpeed = isDeleting ? 50 : 100;
-      setTimeout(type, typingSpeed);
+    const typingSpeed = isDeleting ? 50 : 100;
+    setTimeout(type, typingSpeed);
     }
 
     // Start typing after DOM loads
     document.addEventListener("DOMContentLoaded", type);
 
     window.addEventListener('DOMContentLoaded', () => {
-      document.body.classList.add('fade-in');
+    document.body.classList.add('fade-in');
     });
 
     window.addEventListener('scroll', function () {
-      const navbar = document.getElementById('mainNavbar');
-      if (window.scrollY > 50) {
-        navbar.classList.add('navbar-blur');
-      } else {
-        navbar.classList.remove('navbar-blur');
-      }
+    const navbar = document.getElementById('mainNavbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('navbar-blur');
+    } else {
+      navbar.classList.remove('navbar-blur');
+    }
     });
 
     document.addEventListener("DOMContentLoaded", () => {
-      const buttons = document.querySelectorAll('#filter-buttons button');
-      const cards = document.querySelectorAll('.project-card');
+    const buttons = document.querySelectorAll('#filter-buttons button');
+    const cards = document.querySelectorAll('.project-card');
 
-      const counts = {
-        all: cards.length,
-        fullstack: 0,
-        landing: 0,
-        side: 0,
-      };
+    const counts = {
+      all: cards.length,
+      fullstack: 0,
+      landing: 0,
+      side: 0,
+    };
 
-      // Count cards by category
+    // Count cards by category
+    cards.forEach(card => {
+      const category = card.getAttribute('data-category');
+      if (counts[category] !== undefined) counts[category]++;
+    });
+
+    // Set badge counts
+    document.getElementById('count-all').textContent = counts.all;
+    document.getElementById('count-fullstack').textContent = counts.fullstack;
+    document.getElementById('count-landing').textContent = counts.landing;
+    document.getElementById('count-side').textContent = counts.side;
+
+    // Filter function
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+      const filter = button.getAttribute('data-filter');
+
+      buttons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
       cards.forEach(card => {
         const category = card.getAttribute('data-category');
-        if (counts[category] !== undefined) counts[category]++;
+
+        if (filter === 'all' || category === filter) {
+        card.style.display = 'block';
+        } else {
+        card.style.display = 'none';
+        }
       });
-
-      // Set badge counts
-      document.getElementById('count-all').textContent = counts.all;
-      document.getElementById('count-fullstack').textContent = counts.fullstack;
-      document.getElementById('count-landing').textContent = counts.landing;
-      document.getElementById('count-side').textContent = counts.side;
-
-      // Filter function
-      buttons.forEach(button => {
-        button.addEventListener('click', () => {
-          const filter = button.getAttribute('data-filter');
-
-          buttons.forEach(btn => btn.classList.remove('active'));
-          button.classList.add('active');
-
-          cards.forEach(card => {
-            const category = card.getAttribute('data-category');
-
-            if (filter === 'all' || category === filter) {
-              card.style.display = 'block';
-            } else {
-              card.style.display = 'none';
-            }
-          });
-        });
       });
-      const canvas = document.getElementById('particle-bg');
-      const ctx = canvas.getContext('2d');
-      const section = document.getElementById('featured-projects');
+    });
+    const canvas = document.getElementById('particle-bg');
+    const ctx = canvas.getContext('2d');
+    const section = document.getElementById('featured-projects');
 
-      let width = section.clientWidth;
-      let height = section.clientHeight;
-      canvas.width = width;
-      canvas.height = height;
+    let width = section.clientWidth;
+    let height = section.clientHeight;
+    canvas.width = width;
+    canvas.height = height;
 
-      let particles = [];
+    let particles = [];
 
-      function resizeCanvas() {
-        width = canvas.width = section.clientWidth;
-        height = canvas.height = section.clientHeight;
-        createParticles(100);
-      }
-      window.addEventListener('resize', resizeCanvas);
-
-      function createParticles(count) {
-        particles = [];
-        for (let i = 0; i < count; i++) {
-          particles.push({
-            x: Math.random() * width,
-            y: Math.random() * height,
-            vx: (Math.random() - 0.5) * 1,
-            vy: (Math.random() - 0.5) * 1,
-            radius: Math.random() * 2 + 1,
-            opacity: Math.random() * 0.5 + 0.5,
-          });
-        }
-      }
-
-      function draw() {
-        ctx.clearRect(0, 0, width, height);
-
-        // Draw connections
-        for (let i = 0; i < particles.length; i++) {
-          for (let j = i + 1; j < particles.length; j++) {
-            const dx = particles[i].x - particles[j].x;
-            const dy = particles[i].y - particles[j].y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 100) {
-              ctx.strokeStyle = `hsla(180, 100%, 50%, ${0.1 * (1 - dist / 100)})`;
-                ctx.beginPath();
-            ctx.moveTo(particles[i].x, particles[i].y);
-              ctx.lineTo(particles[j].x, particles[j].y);
-              ctx.stroke();
-            }
-          }
-        }
-
-        // Draw particles
-        for (let p of particles) {
-          ctx.beginPath();
-          ctx.fillStyle = `hsla(270, 100%, 65%, ${p.opacity})`;
-          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-          ctx.fill();
-
-          p.x += p.vx;
-          p.y += p.vy;
-
-          if (p.x < 0 || p.x > width) p.vx *= -1;
-          if (p.y < 0 || p.y > height) p.vy *= -1;
-        }
-
-        requestAnimationFrame(draw);
-      }
-
+    function resizeCanvas() {
+      width = canvas.width = section.clientWidth;
+      height = canvas.height = section.clientHeight;
       createParticles(100);
-      draw();
+    }
+    window.addEventListener('resize', resizeCanvas);
+
+    function createParticles(count) {
+      particles = [];
+      for (let i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: (Math.random() - 0.5) * 1,
+        vy: (Math.random() - 0.5) * 1,
+        radius: Math.random() * 2 + 1,
+        opacity: Math.random() * 0.5 + 0.5,
+      });
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, width, height);
+
+      // Draw connections
+      for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 100) {
+        ctx.strokeStyle = `hsla(180, 100%, 50%, ${0.1 * (1 - dist / 100)})`;
+        ctx.beginPath();
+        ctx.moveTo(particles[i].x, particles[i].y);
+        ctx.lineTo(particles[j].x, particles[j].y);
+        ctx.stroke();
+        }
+      }
+      }
+
+      // Draw particles
+      for (let p of particles) {
+      ctx.beginPath();
+      ctx.fillStyle = `hsla(270, 100%, 65%, ${p.opacity})`;
+      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+      ctx.fill();
+
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0 || p.x > width) p.vx *= -1;
+      if (p.y < 0 || p.y > height) p.vy *= -1;
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    createParticles(100);
+    draw();
 
 
 
 
     });
-</script>
+  </script>
 @endsection
