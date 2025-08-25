@@ -22,8 +22,8 @@
       <!-- Brand Left -->
       <a href="index.html" class="navbar-brand me-5">
         <span style="background: linear-gradient(90deg, #8000ff, #00aaff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
-        font-weight: bold; font-size: 1.5rem;"><i class="fas fa-code me-2"></i>Krix-slark</span>
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
+                font-weight: bold; font-size: 1.5rem;"><i class="fas fa-code me-2"></i>Krix-slark</span>
       </a>
       <!-- Toggler for mobile -->
       <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -70,8 +70,8 @@
 
       <div class="col-12 col-md-6 text-center">
         <h1 class="display-2 fw-bold mt-1" style="background: linear-gradient9, #8000ff, #8000ff, #00aaff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
-        font-weight: bold; font-size: 5rem;">SLARK</h1>
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent; 
+                font-weight: bold; font-size: 5rem;">SLARK</h1>
         <h2 class="text-white fw-bold mt-3">
           <span id="changing-text" class="">Frontend Developer</span> <span class="cursor">|</span>
         </h2>
@@ -128,7 +128,8 @@
     <div class="container d-flex justify-content-center align-item-center mt-3" id="project-showcase">
       <div class="col-12 text-center">
         <h1 class="fw-bold" style="background: linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent;font-size: 3.5rem; ">Featured
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent;font-size: 3.5rem; ">
+          Featured
           Projects</h1>
         <p class="col-12 col-md-7 mx-auto text-white-50 mt-4">A showcase of my recent work and contributions to various
           web development projects.
@@ -333,17 +334,17 @@
                     <img src="images/movie.png" class="d-block w-100" alt="...">
                   </div>
                   <!-- <div class="carousel-item">
-          <img src="images/God1.1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-          <img src="images/God1.2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-          <img src="images/God1.3.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-          <img src="images/God1.4.png" class="d-block w-100" alt="...">
-          </div> -->
+                  <img src="images/God1.1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="images/God1.2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="images/God1.3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="images/God1.4.png" class="d-block w-100" alt="...">
+                  </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -552,11 +553,12 @@
         <div class="card bg-black border-light">
           <div class="card-body text-start text-white">
             <!-- bg-color -->
-            <div class="background-blob background-blob-cyan"></div> 
+            <div class="background-blob background-blob-cyan"></div>
             <!-- bg-color -->
             <h2 class="card-title text-white mt-3 mb-3" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">My Journey</h2>
-            <p class="text-white-50 mb-4" style="text-align: justify;">I’m a passionate newbie Frontend Developer currently
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">My Journey</h2>
+            <p class="text-white-50 mb-4" style="text-align: justify;">I’m a passionate newbie Frontend Developer
+              currently
               mastering HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript. Based in Yangon, Myanmar, I’m on an exciting
               journey to become a versatile full-stack developer with expertise in UI/UX design and mobile development.
               <br><br>
@@ -567,9 +569,9 @@
             </p>
 
             <p class="fs-5 text-info mb-0"><i class="fas fa-circle text-info me-3" style="font-size:12px;">
-            </i>Based in Yangon , Myanmar</p>
+              </i>Based in Yangon , Myanmar</p>
           </div>
-          
+
         </div>
         <div class="row mt-4">
           <div class="col-12 col-md-6 ">
@@ -615,12 +617,12 @@
         </div>
       </div>
 
-      
+
       <div class="col-12 col-md-6">
         <div class="card bg-black border-light mb-4">
           <div class="card-body text-start text-white">
             <h2 class="card-title text-white mt-3 mb-4 fs-3" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Current Skills</h2>
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Current Skills</h2>
             <!-- HTML & CSS -->
             <p><i class="fab fa-html5 text-danger me-3"></i><i class="fab text-info fa-css3 me-3"></i> HTML & CSS <span
                 class="float-end">85%</span></p>
@@ -646,7 +648,8 @@
 
             <!-- Tailwind CSS -->
             <p><img src="{{ asset('images/icons8-tailwind-css-24.svg') }}" alt="Tailwind Css" class="me-2"> Tailwind CSS
-              <span class="float-end">65%</span></p>
+              <span class="float-end">65%</span>
+            </p>
             <div class="progress" style="height: 8px;">
               <div class="progress-bar" role="progressbar"
                 style="width: 65%; background: linear-gradient(90deg, #aa54ffff, #00e1ffff); border-radius: 10px;"></div>
@@ -657,7 +660,8 @@
         <div class="card bg-black border-light mb-4">
           <div class="card-body text-start text-white">
             <h2 class="card-title text-white mt-3 mb-4 fs-3" style="background: linear-gradient(90deg, #aa54ffff, #0066ffff); -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Currently Learning</h2>
+                    -webkit-text-fill-color: transparent; background-clip: text; color: transparent; ">Currently Learning
+            </h2>
             <!-- Laravel -->
             <p><i class="fab fa-laravel text-danger me-3"></i> Laravel <span class="float-end">40%</span></p>
             <div class="progress mb-3" style="height: 8px;">
@@ -692,13 +696,88 @@
     </div>
   </div>
 
-    <div class="about-container d-flex flex-column justify-content-center align-items-center mt-5">
+  <div class="about-container d-flex flex-column justify-content-center align-items-center mt-5">
     <h1 class="title fw-bold" style="color: #00fff2ff; font-size: 3.5rem;">Get In Touch</h1>
     <div class="gradient-border mt-2"></div>
-    <p class="text-center text-white-50 mt-4">Ready to start your project? Let's collaborate and create something amazing<br> together.</p>
+    <p class="text-center text-white-50 mt-4">Ready to start your project? Let's collaborate and create something
+      amazing<br> together.</p>
   </div>
 
+  <div class="container mt-5">
+    <div class="row justify-content-md-start align-items-md-start">
 
+      <div class="col-12 col-md-6">
+        <div class="card border-light" style="background-color: #0f0f0fff;">
+          <div class="card-body justify-content-md-start align-items-md-start">
+            <div class="card-title">
+              <h3 class="fs-2 mb-4" style="background: linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">Let's Connect</h3>
+            </div>
+            <p class="fs-5" style="color: gray;">I'm always excited to discuss new opportunities , innovative projects ,
+              or just
+              chat
+              about the latest in web development . Don't hesitate to reach out !
+            </p>
+            <div class="d-flex justify-content-md-start align-items-md-start">
+              <i class="fas fa-envelope me-3 ms-3 mt-3 fs-2 py-2 "
+                style="background:linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;"></i>
+              <div class="py-2">
+                <h3 class="fs-4" style="color:gray;">Email</h3>
+                <p class="fs-5 fw-bold text-white">devslark15@gmail.com</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-md-start align-items-md-start">
+              <i class="fas fa-phone me-3 ms-3 mt-3 fs-2 py-2 "
+                style="background:linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;"></i>
+              <div class="py-2">
+                <h3 class="fs-4" style="color:gray;">Phone</h3>
+                <p class="fs-5 fw-bold text-white">95+ 9422 150 092</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-md-start align-items-md-start">
+              <i class="fas fa-map-marker-alt me-3 ms-3 mt-3 fs-2 py-2 "
+                style="background:linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;"></i>
+              <div class="py-2">
+                <h3 class="fs-4" style="color:gray;">Location</h3>
+                <p class="fs-5 fw-bold text-white">Tharkayta , Yangon -> Myanmar</p>
+              </div>
+            </div>
+
+            <h3 class="fs-4 mb-4 mt-3 ms-3" style="background: linear-gradient(90deg, #8000ff, #dfe8f7ff); -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">Follow Me</h3>
+            <a href="https://github.com/Krix-Slark" class="btn me-2 ms-3"
+              style="background:linear-gradient(90deg, #be7dffff, #77abf8ff);">
+              <i class="fa-brands fa-github fs-3 mx-auto" style=""></i>
+            </a>
+            <a href="#" class="btn me-2"
+              style="background:linear-gradient(90deg, #be7dffff, #77abf8ff);">
+              <i class="fa-brands fa-linkedin fs-3 mx-auto" style=""></i>
+            </a>
+            <a href="#" class="btn me-2" style="background:linear-gradient(90deg, #be7dffff, #77abf8ff);">
+              <i class="fa-brands fa-viber fs-3 mx-auto" style=""></i>
+            </a>
+            <a href="#" class="btn me-2" style="background:linear-gradient(90deg, #be7dffff, #77abf8ff);">
+              <i class="fa-brands fa-telegram fs-3 mx-auto" style=""></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="card border-light" style="background-color: #0f0f0fff;">
+          <div class="card-body justify-content-md-start align-items-md-start">
+            <div class="card-title">
+              <h3 class="fs-2 mb-4" style="background: linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">Send Message</h3>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
   </div>
   </div>
 
