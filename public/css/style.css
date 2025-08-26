@@ -170,3 +170,17 @@ h2 { color: rgb(177, 177, 177); transition: color 0.3s ease; }
   background: linear-gradient(to right, cyan, purple);
   border-radius: 2px;
 }
+
+/* Text inside inputs */
+.form-control {
+  color: #ffffff !important; /* force white */
+  background-color: #000000; /* keep black background */
+  border-color: #333333;     /* subtle gray border */
+}
+
+/* Placeholder text */
+.form-control::placeholder {
+  color: #b0b0b0 !important; /* light gray */
+  opacity: 1 !important;
+}
+
