@@ -184,3 +184,10 @@ h2 { color: rgb(177, 177, 177); transition: color 0.3s ease; }
   opacity: 1 !important;
 }
 
+.quick-link li a{
+  text-decoration: none;
+}
+
+.quick-link li a:hover {
+ color: #8000ff !important;
+}

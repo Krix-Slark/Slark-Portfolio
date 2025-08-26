@@ -810,11 +810,44 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
+  <div class="container-fluid p-0">
+      <div class="bar fs-3 border border-top mt-5 mb-4"></div>
   </div>
+  <div class="footer d-flex justify-content-center align-items-center">
+    <div class="container mb-4 py-4" style="border-bottom: 2px solid rgba(255, 255, 255, 0.97);">
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <div class="fs-2 fw-bold" style="background: linear-gradient(90deg, #cd27f7ff, #01fff2ff);
+           -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;"><i class="fas fa-code me-2"></i>
+            Krix-Slark</div>
+          <p class="mt-3" style="color: gray; text-align: justify;font-size:17px;">Passionate frontend developer crafting digital experiences that blend creativity with functionality. 
+            Always exploring new technologies and pushing the boundaries of web development.</p>
+        </div>
+
+        <div class="col-12 col-md-1"></div>
+
+        <div class="col-12 col-md-3">
+          <h3 class="fs-3 text-white">Quick Link</h3>
+          <ul class="quick-link list-unstyled mt-3">
+            <li><a href="#" class="text-white-50 ms-2">Home</a></li>
+            <li><a href="#" class="text-white-50 ms-2">About</a></li>
+            <li><a href="#" class="text-white-50 ms-2">Projects</a></li>
+            <li><a href="#" class="text-white-50 ms-2">Skills</a></li>
+            <li><a href="#" class="text-white-50 ms-2">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h3 class="fs-3 text-white mb-3">Connect</h3>
+          <p class="text-white-50"><i class="fas fa-bolt me-2"></i>devslark15@gmail.com</p>
+          <a href="https://github.com/krix-slark" class="text-white-50 me-2" style="text-decoration: none;"><i class="fa-brands fa-github me-2"></i>github.com/krix-slark</a>
+        </div>
+      </div>
+    </div>
   </div>
+   <p class=" text-white-50 text-center mb-3" style="font-size: 16px;">&copy; 2025 Krix-Slark. All rights reserved.</p>
 
 @endsection
 
