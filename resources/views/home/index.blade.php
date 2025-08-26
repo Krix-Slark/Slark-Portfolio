@@ -847,7 +847,7 @@
       </div>
     </div>
   </div>
-   <p class=" text-white-50 text-center mb-3" style="font-size: 16px;">&copy; 2025 Krix-Slark. All rights reserved.</p>
+   <p class="text-white-50 text-center" style="font-size: 16px;">&copy; 2025 Krix-Slark. All rights reserved.</p>
 
 @endsection
 
