@@ -769,9 +769,10 @@
               <h3 class="fs-2 mb-4" style="background: linear-gradient(90deg, #8000ff, #005fee); -webkit-background-clip: text; 
                   -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">Send Message</h3>
             </div>
+
             <div class="row d-flex justify-content-md-start justify-content-center">
               <div class="col-12">
-                <form action="#" method="POST" class="row g-3">
+                <form action="https://formspree.io/f/mvgbznwn" id="contactForm" method="POST" class="row g-3">
                   <div class="col-12 col-md-6">
                     <label for="name" class="form-label text-white">Name</label>
                     <input type="text" id="name" name="name" class="form-control bg-black border-black"
@@ -800,6 +801,11 @@
                 </form>
               </div>
             </div>
+            <div id="notification"
+  style="position: fixed; top: 20px; right: 20px; display: none; z-index: 1050;"
+  class="alert alert-success shadow-lg">
+  Message sent successfully! ✅
+</div>
             <!-- add bg-color -->
             <div class="background-blob background-blob-purple"></div>
 
@@ -1011,11 +1017,46 @@
 
       createParticles(100);
       draw();
-
-
-
-
     });
+    const form = document.getElementById("contactForm");
+  const noti = document.getElementById("notification");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault(); // stop default Formspree behavior
+
+    const formData = new FormData(form);
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { "Accept": "application/json" }
+      });
+
+      if (response.ok) {
+        // Show success notification
+        noti.style.display = "block";
+        noti.classList.add("alert-success");
+        noti.textContent = "Message sent successfully! ✅";
+        form.reset();
+
+        // Hide after 3 sec
+        setTimeout(() => { noti.style.display = "none"; }, 3000);
+      } else {
+        // Show error notification
+        noti.style.display = "block";
+        noti.classList.remove("alert-success");
+        noti.classList.add("alert-danger");
+        noti.textContent = "Something went wrong. Try again ❌";
+        setTimeout(() => { noti.style.display = "none"; }, 3000);
+      }
+    } catch (error) {
+      noti.style.display = "block";
+      noti.classList.remove("alert-success");
+      noti.classList.add("alert-danger");
+      noti.textContent = "Network error. Please try again ❌";
+      setTimeout(() => { noti.style.display = "none"; }, 3000);
+    }
+  });
   </script>
 </body>
 </html>
