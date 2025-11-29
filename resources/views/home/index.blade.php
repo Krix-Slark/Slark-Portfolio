@@ -10,7 +10,7 @@
   <!-- Small Glowing Background Blobs -->
   <div class="blob-container">
     <div class="blob purple top-left"></div>
-    <div class="blob pink top-right"></div>
+    <div class="blob pink top-right"></div> 
     <div class="blob blue bottom-left"></div>
     <div class="blob green bottom-right"></div>
   </div>
@@ -314,7 +314,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="col-12 col-md-5 mb-4 project-card" data-category="landing">
+        <div class="col-12 col-md-5 mb-4 project-card" data-category="fullstack">
           <div class="card border border-dark h-100">
             <div class="card-body bg-black text-white">
               <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
@@ -331,20 +331,20 @@
                 <!-- Slides -->
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active">
-                    <img src="images/movie.png" class="d-block w-100" alt="...">
+                    <img src="images/ygea-landing.png" class="d-block w-100" alt="...">
                   </div>
-                  <!-- <div class="carousel-item">
-                    <img src="images/God1.1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-item">
+                    <img src="images/ygea-gold-calculator.png" class="d-b`lock w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="images/God1.2.png" class="d-block w-100" alt="...">
+                    <img src="images/ygea-about.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="images/God1.3.png" class="d-block w-100" alt="...">
+                    <img src="images/ygea-news.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="images/God1.4.png" class="d-block w-100" alt="...">
-                    </div> -->
+                    <img src="images/ygea-member.png" class="d-block w-100" alt="...">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -353,10 +353,12 @@
                   <span class="carousel-control-next-icon"></span>
                 </button>
               </div>
-              <h2 class="mt-4">Movie Channel</h2>
-              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A modern movie channel website featuring the latest trailers,
-                reviews, etc... Optimized for mobile and desktop views.</p>
+              <h2 class="mt-4">YGEA Website</h2>
+              <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Fullstack Website</span>
+              <p class="text-white-50 mt-3 fs-5">A modern site for the Yangon Gold Entrepreneurs Association: industry news, 
+                member directory, events, and resources.
+
+              </p>
             </div>
           </div>
         </div>

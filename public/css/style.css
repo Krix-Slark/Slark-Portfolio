@@ -12,17 +12,6 @@ body {
 }
 
 /* Blob Base Style */
-.blob {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  filter: blur(25px);
-  opacity: 0.5;
-  z-index: -1;
-  animation: float 2s ease-in-out infinite alternate;
-}
-
 /* Blob Colors */
 .blob.purple { background: radial-gradient(circle, #8000ff, transparent); }
 .blob.blue { background: radial-gradient(circle, #00ffff, transparent); }
