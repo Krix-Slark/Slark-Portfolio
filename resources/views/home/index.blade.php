@@ -178,20 +178,24 @@
                   <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
                 <!-- Slides -->
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active">
-                    <img src="images/SlarkGYM2.png" class="d-block w-100" alt="...">
+                    <img src="images/fitchallenge-home.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/SlarkGym2.1.png" class="d-block w-100" alt="...">
+                    <img src="images/fitchallenge-dashboard.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/SlarkGym2.2.png" class="d-block w-100" alt="...">
+                    <img src="images/fitchallenge-workout-plan.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/SlarkGym2.3.png" class="d-block w-100" alt="...">
+                    <img src="images/fitchallenge-workout-detail.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/fitchallenge-nutrition.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -201,10 +205,10 @@
                   <span class="carousel-control-next-icon"></span>
                 </button>
               </div>
-              <h2 class="mt-4">GYM Web Page</h2>
+              <h2 class="mt-4">FitChallenge Website</h2>
               <span class="badge bg-dark text-white py-3 mt-3 px-3" style="border:2px solid #a020f0;">Landing Page</span>
-              <p class="text-white-50 mt-3 fs-5">A responsive gym website showcasing class schedules, trainer profiles,
-                and membership plans.</p>
+              <p class="text-white-50 mt-3 fs-5">A responsive fitness website offering a personalized workout plan and 
+                custom nutrition plan tailored for a specific client.</p>
             </div>
           </div>
         </div>
